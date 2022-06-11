@@ -18,7 +18,7 @@ print_star_wars_greeting <- function(who = "Obi Wan Kenobi"){
 #' Print a random Star Wars quote
 #' @export
 print_star_wars_quote <- function(){
-  quotes <- dplyr::read_csv("sw_quotes.csv")
+  quotes <- readr::read_csv("sw_quotes.csv")
   selected_line <- sample(quotes, size = 1)
   print(selected_line$sq_quote)
 }
