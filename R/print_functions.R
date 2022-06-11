@@ -19,6 +19,6 @@ print_star_wars_greeting <- function(who = "Obi Wan Kenobi"){
 #' @export
 print_star_wars_quote <- function(){
   quotes <- star_wars_quotes
-  selected_line <- sample(quotes, size = 1)
+  selected_line <- sample(quotes$sw_quote, size = 1)
   print(selected_line$sq_quote)
 }
