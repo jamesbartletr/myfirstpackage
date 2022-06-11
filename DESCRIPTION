@@ -1,10 +1,10 @@
 Package: myfirstpackage
-Title: What the Package Does (One Line, Title Case)
+Title: Star Wars quotes at your fingertips!
 Version: 0.0.0.9000
 Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"),
+    person("James", "Bartlett", , "james.bartlett.1993@icloud.com, role = c("aut", "cre"),
            comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
+Description: This package allows users to print random quotes from Star Wars.
 License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
@@ -15,8 +15,7 @@ Suggests:
 VignetteBuilder: knitr
 Imports:
   dplyr,
-  readr,
-  rlang
+  readr
 Depends: 
     R (>= 2.10)
 LazyData: no
