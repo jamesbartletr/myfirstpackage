@@ -3,3 +3,4 @@ inst/doc
 .Rbuildignore
 .Rhistory
 .myfirstpackage.Rproj
+.DS_Store
