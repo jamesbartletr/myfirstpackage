@@ -7,10 +7,18 @@ print_hello_world <- function(){
 #' Print a Star Wars Theme message
 #' @param who should be a character from Star Wars
 #' @export
-print_star_wars <- function(who = "Obi Wan Kenobi"){
+print_star_wars_greeting <- function(who = "Obi Wan Kenobi"){
   if (who == "Obi Wan Kenobi"){
     print("Hello There!")
   } else if (who == "General Grievous"){
     print("Ah, General Kenobi!")
   }
+}
+
+#' Print a random Star Wars quote
+#' @export
+print_star_wars_quote <- function(){
+  quotes <- dplyr::read_csv("sw_quotes.csv")
+  selected_line <- sample(quotes, size = 1)
+  print(selected_line$sq_quote)
 }
