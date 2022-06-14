@@ -1,9 +1,14 @@
 Package: myfirstpackage
 Title: Star Wars quotes at your fingertips!
-Version: 0.0.0.9000
+Version: 0.0.1
 Authors@R: 
-    person("James", "Bartlett", , "james.bartlett.1993@icloud.com, role = c("aut", "cre"),
-           comment = c(ORCID = "YOUR-ORCID-ID"))
+    person(
+    given = "James",
+    family = "Bartlett", 
+    email = "james.bartlett.1993@icloud.com",
+    role = c("aut", "cre"),
+    comment = c(ORCID = "YOUR-ORCID-ID")
+    )
 Description: This package allows users to print random quotes from Star Wars.
 License: MIT + file LICENSE
 Encoding: UTF-8
