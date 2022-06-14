@@ -4,7 +4,7 @@
 <!-- badges: start -->
 <!-- badges: end -->
 
-The goal of myfirstpackage is to ...
+The goal of myfirstpackage is to provide randomly selected Star Wars quotes when required.
 
 ## Installation
 
@@ -21,6 +21,9 @@ This is a basic example which shows you how to solve a common problem:
 
 ``` r
 library(myfirstpackage)
-## basic example code
+print_star_wars_quote()
+
+# A quote can also be printed to include the person who said it
+print_star_wars_quote(include_character=TRUE)
 ```
 
