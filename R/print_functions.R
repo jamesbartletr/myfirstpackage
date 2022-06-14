@@ -1,9 +1,3 @@
-#' Print a Hello World message
-#' @export
-print_hello_world <- function(){
-  print("Hello World!")
-}
-
 #' Print a Star Wars Theme message
 #' @param who should be a character from Star Wars
 #' @export
