@@ -10,8 +10,7 @@ print_star_wars_greeting <- function(who = "Obi Wan Kenobi"){
 }
 
 #' Print a random Star Wars quote
-#' This function will print a random Star Wars Quote from the pre-defined dataset.
-#'
+#' @description This function will print a random Star Wars Quote from the pre-defined dataset.
 #' @param include_character Choose whether the character's name is included.
 #' @return Printed Star Wars quote
 #' @export

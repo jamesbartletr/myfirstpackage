@@ -2,8 +2,7 @@
 % Please edit documentation in R/print_functions.R
 \name{print_star_wars_quote}
 \alias{print_star_wars_quote}
-\title{Print a random Star Wars quote
-This function will print a random Star Wars Quote from the pre-defined dataset.}
+\title{Print a random Star Wars quote}
 \usage{
 print_star_wars_quote(include_character = FALSE)
 }
@@ -14,6 +13,5 @@ print_star_wars_quote(include_character = FALSE)
 Printed Star Wars quote
 }
 \description{
-Print a random Star Wars quote
 This function will print a random Star Wars Quote from the pre-defined dataset.
 }
